@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "pyodide": "^0.26.0",
+    "pyodide": "file:./public/pyodide/",
     "vue": "^3.4.21"
   },
   "devDependencies": {
