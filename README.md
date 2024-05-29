@@ -1,7 +1,11 @@
-# Vue 3 + Vite
+# Pyodide Vite Example
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a sample Vite project using Pyodide.
 
-## Recommended IDE Setup
+In order to run this you need to download the full Pyodide release from Github: https://github.com/pyodide/pyodide/releases
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+If you want the distribution that includes everything including the built-in packages, use the one like `pyodide-0.26.0.tar.bz2` for the version you want.
+
+Then unpack the archive file and copy the contents of the `pyodide` folder to `assets/public`.
+
+To run the development server: `npm run dev`
