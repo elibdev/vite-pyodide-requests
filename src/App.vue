@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted } from "vue";
-import { loadPyodide } from "pyodide";
+import { loadPyodide } from "../public/assets/pyodide.mjs";
 
 onMounted(async () => {
     const pyodide = await loadPyodide({ packages: ["requests"] });
