@@ -8,4 +8,14 @@ If you want the distribution that includes everything including the built-in pac
 
 Then unpack the archive file and copy the contents of the `pyodide` folder to `assets/public`.
 
+```sh
+mkdir public
+wget https://github.com/pyodide/pyodide/releases/download/0.26.0/pyodide-0.26.0.tar.bz2
+tar -xf pyodide-0.26.0.tar.bz2 -C public/
+rm pyodide-0.26.0.tar.bz2
+mv public/pyodide public/assets
+```
+
 To run the development server: `npm run dev`
+
+To build and server the built files: `npm run build; npm run preview`
